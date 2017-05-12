@@ -133,8 +133,8 @@ class homePage extends React.Component {
   }
 
   render() {
-    if (this.state["404898"]) {
-      console.log(this.state["404898"])
+    if (this.state.user) {
+      console.log(this.state.user);
     }
     return (
       <div>
